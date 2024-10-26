@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Inventory-CRD App</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <form>
+        <label>Add Name</label>
+        <input type="text" id="newName" class="form-control" />
+        <br />
+        <label>Add Quantity</label>
+        <input type="number" id="newQty" class="form-control mb-4" />
+      </form>
+      <h1>My Inventory List</h1>
+      <button id="fetch-inventory" class="btn btn-primary mt-2">
+        Fetch Inventory
+      </button>
+      <button id="create-inventory" class="btn btn-success mt-2">
+        Create Item
+      </button>
+
+      <div id="inventory-container" class="mt-4"></div>
+    </div>
+
+    <script src="crd_app.js"></script>
+  </body>
+</html>

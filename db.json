@@ -1,0 +1,19 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "quantity": 5
+    },
+    {
+      "id": 2,
+      "name": "Monitor",
+      "quantity": 17
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "quantity": 12
+    }
+  ]
+}
